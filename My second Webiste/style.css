@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: chocolate;
+    padding: 15px 30px;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
