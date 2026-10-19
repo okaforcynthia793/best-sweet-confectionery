@@ -634,7 +634,7 @@ footer a{
 @media screen and (max-width: 768px){
     .navbar {flex-wrap: wrap; justify-content: center; padding: 10px;}
     .nav-link {flex-wrap: wrap; justify-content: center; gap: 12px 18px; padding: 0;}
-    .navlink a{ font-size: 1em;}
+    .nav-link a{ font-size: 1em;}
     .logo { position: static; left: 0; margin-right: 0; height: 60px; width: 60px;}
     .hero { margin-left: 0; padding: 0 20px; }
     .h1 { font-size: 1.1em;}
@@ -661,7 +661,8 @@ footer a{
     .customer {font-size: 18px;}
     .customer form {margin-left: 16px; margin-right: 16px; padding: 30px 16px;}
     .customer label {display: block; margin-bottom: 6px;}
-    .customer input, .customer textarea, customer select {width: 100%;}
+input, textarea, select {box-sizing: border-box; max-width: 100%; }
+    .customer input, .customer textarea, .customer select {width: 100%;}
     .fields { grid-template-columns: 1fr;}
     .field, .field-add, .field-date{ margin-left: 16px; margin-right: 16px;}
     .field input, .field-date input, .field-add textarea { width: 100% ; padding-right: 10px;}
